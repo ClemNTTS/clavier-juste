@@ -2,6 +2,8 @@
 
 Une application web statique et sans dépendance pour s'entraîner à taper des textes français avec précision.
 
+**Application : [clemntts.github.io/clavier-juste](https://clemntts.github.io/clavier-juste/)**
+
 ## Fonctionnalités
 
 - blocage immédiat des caractères erronés ;
