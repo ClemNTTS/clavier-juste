@@ -2,17 +2,71 @@ const texts = {
   facile: [
     "Le soleil brille sur la place du village.",
     "Un chat roux dort près de la fenêtre ouverte.",
-    "Chaque matin, Léa prépare un café bien chaud."
+    "Chaque matin, Léa prépare un café bien chaud.",
+    "La pluie tombe doucement sur les toits gris.",
+    "Paul range ses livres dans la grande armoire.",
+    "Nous marchons au bord du lac après le repas.",
+    "Le boulanger prépare du pain frais pour midi.",
+    "Cette petite lampe éclaire toute la chambre.",
+    "Mon frère joue souvent au ballon dans le jardin.",
+    "Les enfants dessinent une maison et trois arbres.",
+    "Le train arrive à la gare avec cinq minutes de retard.",
+    "Une légère brise traverse les rideaux blancs.",
+    "Julie écoute de la musique en faisant ses devoirs.",
+    "Le chien attend son maître devant la porte bleue.",
+    "Nous mangeons une tarte aux pommes encore tiède.",
+    "Ce matin, la mer est calme et le ciel est clair.",
+    "Arthur prend son vélo pour aller chez un ami.",
+    "Le jardinier arrose les fleurs avant la chaleur.",
+    "Une étoile brillante apparaît au-dessus des collines.",
+    "Ma voisine porte un joli chapeau de paille.",
+    "Les feuilles jaunes recouvrent le chemin du parc."
   ],
   moyen: [
     "À l'aube, les oiseaux s'éveillent doucement tandis que la ville retrouve peu à peu son rythme.",
     "Écrire avec précision demande de la patience, une attention calme et beaucoup de régularité.",
-    "Après l'orage, l'air frais révèle les parfums du jardin et la lumière éclaire chaque feuille."
+    "Après l'orage, l'air frais révèle les parfums du jardin et la lumière éclaire chaque feuille.",
+    "Camille referma son carnet, puis observa longuement les nuages qui glissaient vers l'horizon.",
+    "Dans la bibliothèque silencieuse, chacun cherchait un livre capable de nourrir son imagination.",
+    "Même lorsque le chemin paraît difficile, quelques efforts réguliers finissent par porter leurs fruits.",
+    "La vieille horloge du salon sonna minuit au moment précis où les invités quittaient la maison.",
+    "Nous avons choisi un itinéraire plus long afin de découvrir les paysages cachés de la vallée.",
+    "Au marché, les commerçants présentent leurs légumes colorés et discutent avec les premiers clients.",
+    "Sophie hésita quelques secondes avant d'envoyer le message qu'elle avait soigneusement préparé.",
+    "Le vent soulevait le sable fin, obligeant les promeneurs à protéger leurs yeux et leur visage.",
+    "Pour progresser rapidement, mieux vaut rester détendu et conserver un rythme aussi stable que possible.",
+    "Le professeur expliqua la règle une seconde fois, avec un exemple plus concret et plus amusant.",
+    "Lorsque les lumières s'éteignirent, la salle entière applaudit avec une énergie surprenante.",
+    "Élodie emporta un pull supplémentaire, car la météo annonçait une soirée fraîche et humide.",
+    "Les premières notes du piano résonnèrent dans le théâtre, imposant aussitôt un silence attentif.",
+    "Chaque dimanche, ils préparent ensemble un grand repas auquel participent leurs voisins les plus proches.",
+    "Le jeune photographe attendit patiemment que le soleil traverse les branches couvertes de rosée.",
+    "Cette recette paraît simple, mais elle exige des ingrédients frais et une cuisson parfaitement maîtrisée.",
+    "Malgré la fatigue du voyage, nous avons exploré les rues animées du centre jusqu'à la nuit.",
+    "Un parfum de cannelle flottait dans la cuisine pendant que le gâteau refroidissait sur la table."
   ],
   difficile: [
     "« Où vas-tu ? » demanda-t-elle ; Jérôme, hésitant, répondit qu'il rentrerait peut-être dès vingt-deux heures.",
     "L'extraordinaire ambiguïté de cette œuvre, quoique subtile, n'échappa ni aux critiques ni aux spectateurs.",
-    "Grâce à un entraînement assidu, vous maîtriserez bientôt les accents, les apostrophes et la ponctuation française !"
+    "Grâce à un entraînement assidu, vous maîtriserez bientôt les accents, les apostrophes et la ponctuation française !",
+    "À peine étions-nous installés que l'orage éclata : éclairs aveuglants, rafales violentes et pluie torrentielle.",
+    "Le procès-verbal, rédigé à la hâte, comportait néanmoins plusieurs précisions jugées indispensables par l'assemblée.",
+    "Qu'auriez-vous répondu, vous, si l'on vous avait posé cette question aussi soudaine qu'embarrassante ?",
+    "D'après l'ingénieure, ce mécanisme complexe nécessiterait deux réglages supplémentaires avant d'être pleinement opérationnel.",
+    "Les élèves, mi-amusés, mi-inquiets, découvrirent qu'aucune réponse ne correspondait exactement à l'énoncé proposé.",
+    "Là-bas, au-delà des falaises abruptes, s'étendait un archipel méconnu où vivaient quelques pêcheurs expérimentés.",
+    "« N'oubliez rien : clés, billets, passeports et médicaments », répéta-t-il en vérifiant chaque bagage.",
+    "Bien qu'elle eût soigneusement étudié le dossier, Maïwenn demeurait perplexe face aux conclusions contradictoires.",
+    "Ce chef-d'œuvre du XIXe siècle fut restauré grâce à des techniques extrêmement précises et coûteuses.",
+    "Pourquoi faudrait-il choisir entre efficacité et créativité, alors qu'elles peuvent parfaitement se compléter ?",
+    "L'écureuil s'immobilisa brusquement ; puis, d'un bond étonnamment agile, il disparut derrière l'épais feuillage.",
+    "À 18 h 30 exactement, les vingt-cinq participants devront s'être présentés à l'accueil du bâtiment B.",
+    "Les résultats, supérieurs de 12,5 % aux prévisions initiales, réjouirent l'équipe malgré quelques réserves.",
+    "L'hypothèse selon laquelle ces phénomènes seraient liés demeure plausible, quoiqu'aucune preuve n'ait été établie.",
+    "Faut-il réellement s'étonner que l'échéance ait été reportée après d'aussi nombreux contretemps ?",
+    "Sous l'œil attentif du maître d'œuvre, les artisans ajustèrent méticuleusement chaque pièce du mécanisme.",
+    "« Peut-être reviendra-t-elle demain… à moins qu'elle n'ait déjà changé d'avis », murmura Anaïs.",
+    "L'exposé abordait pêle-mêle l'écologie, l'économie numérique, les médias et les enjeux géopolitiques contemporains."
   ]
 };
 
@@ -29,6 +83,8 @@ const elements = {
   speed: document.querySelector("#speedStat"),
   time: document.querySelector("#timeStat"),
   dialog: document.querySelector("#resultDialog"),
+  resultTitle: document.querySelector("#resultTitle"),
+  resultAccuracy: document.querySelector("#resultAccuracy"),
   resultSpeed: document.querySelector("#resultSpeed"),
   resultTime: document.querySelector("#resultTime")
 };
@@ -106,7 +162,12 @@ function finish() {
   updateStats();
   elements.input.disabled = true;
   elements.feedback.className = "feedback";
-  elements.feedback.textContent = "Parfait : le texte est complet et sans faute.";
+  const perfect = errors === 0;
+  elements.feedback.textContent = perfect
+    ? "Parfait : le texte est complet et sans faute."
+    : `Texte terminé avec ${errors} ${errors === 1 ? "erreur corrigée" : "erreurs corrigées"}.`;
+  elements.resultTitle.textContent = perfect ? "Parfait, aucune faute !" : "Bravo, texte terminé !";
+  elements.resultAccuracy.textContent = elements.accuracy.textContent;
   elements.resultSpeed.textContent = elements.speed.textContent;
   elements.resultTime.textContent = elements.time.textContent;
   elements.dialog.showModal();
