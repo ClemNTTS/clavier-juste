@@ -145,10 +145,11 @@ function updateStats() {
   const seconds = elapsedSeconds();
   const correctCharacters = elements.input.value.length;
   const wordsPerMinute = seconds ? Math.round((correctCharacters / 5) / (seconds / 60)) : 0;
-  const accuracy = attempts ? Math.round(((attempts - errors) / attempts) * 100) : 100;
+  const rawAccuracy = attempts ? ((attempts - errors) / attempts) * 100 : 100;
+  const accuracy = errors > 0 ? Math.min(99.9, Math.floor(rawAccuracy * 10) / 10) : 100;
   elements.time.textContent = formatTime(seconds);
   elements.speed.textContent = String(wordsPerMinute);
-  elements.accuracy.textContent = `${Math.max(0, accuracy)} %`;
+  elements.accuracy.textContent = `${Math.max(0, accuracy).toLocaleString("fr-FR", { maximumFractionDigits: 1 })} %`;
 }
 
 function begin() {
