@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Clavier Juste, un entraînement de frappe en français axé sur la précision."
+    />
+    <title>Clavier Juste — Entraînement de frappe</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="Clavier Juste, accueil">
+          <span class="brand-mark" aria-hidden="true">Ç</span>
+          <span>Clavier Juste</span>
+        </a>
+        <button id="themeButton" class="icon-button" type="button" aria-label="Changer de thème">☾</button>
+      </header>
+
+      <section class="hero" aria-labelledby="pageTitle">
+        <p class="eyebrow">Précision avant vitesse</p>
+        <h1 id="pageTitle">Tapez juste.<br /><em>Accélérez ensuite.</em></h1>
+        <p class="intro">
+          Recopiez le texte sans faute. Une erreur bloque la progression jusqu’à sa correction.
+        </p>
+      </section>
+
+      <section class="trainer" aria-label="Zone d’entraînement">
+        <div class="settings" aria-label="Réglages de l’exercice">
+          <label>
+            Difficulté
+            <select id="difficultySelect">
+              <option value="facile">Facile</option>
+              <option value="moyen" selected>Moyen</option>
+              <option value="difficile">Difficile</option>
+            </select>
+          </label>
+          <button id="newTextButton" class="secondary-button" type="button">Nouveau texte</button>
+        </div>
+
+        <div class="stats" aria-live="polite">
+          <div><strong id="accuracyStat">100 %</strong><span>Précision</span></div>
+          <div><strong id="speedStat">0</strong><span>Mots/min</span></div>
+          <div><strong id="timeStat">00:00</strong><span>Temps</span></div>
+        </div>
+
+        <div id="textDisplay" class="text-display" aria-label="Texte à recopier"></div>
+
+        <label class="typing-label" for="typingInput">Votre saisie</label>
+        <textarea
+          id="typingInput"
+          rows="4"
+          autocomplete="off"
+          autocapitalize="off"
+          spellcheck="false"
+          placeholder="Commencez à taper ici…"
+        ></textarea>
+        <p id="feedback" class="feedback" aria-live="assertive">Prêt ? Concentrez-vous sur chaque caractère.</p>
+
+        <div class="actions">
+          <button id="restartButton" class="primary-button" type="button">Recommencer</button>
+          <p><kbd>Tab</kbd> puis <kbd>Entrée</kbd> pour naviguer sans souris</p>
+        </div>
+      </section>
+    </main>
+
+    <dialog id="resultDialog">
+      <div class="result-card">
+        <p class="eyebrow">Exercice terminé</p>
+        <h2>Bravo, aucune faute&nbsp;!</h2>
+        <div class="result-stats">
+          <p><strong id="resultSpeed">0</strong><span>mots/min</span></p>
+          <p><strong id="resultTime">00:00</strong><span>temps total</span></p>
+        </div>
+        <button id="nextButton" class="primary-button" type="button">Texte suivant</button>
+      </div>
+    </dialog>
+
+    <script src="app.js"></script>
+  </body>
+</html>
